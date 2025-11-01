@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Montserrat';
-  src: url('fonts/Maleah-Regular.woff2') format('woff2');
+  src: url('fonts/Montserrat-Regular.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 } 
@@ -163,3 +163,4 @@
   .low { background: #ffcccc; color: #b00020; }
   .mid { background: #fff4cc; color: #a35a00; }
   .high { background: #ccffd7; color: #066b10; }
+
