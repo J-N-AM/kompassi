@@ -7,7 +7,7 @@
  body {
    background: #fff;
     margin: 0;
-    padding: 10px;
+    padding: 0px;
     font-family: 'Montserrat', sans-serif;
     color: #222;
     display: flex;
@@ -21,7 +21,7 @@
   background: #fdf5db;
   border: 1px solid #444;
   box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-  padding: 0px;
+  padding: 20px;
   box-sizing: border-box;
 }
 .container > * {
@@ -162,6 +162,7 @@
   .low { background: #ffcccc; color: #b00020; }
   .mid { background: #fff4cc; color: #a35a00; }
   .high { background: #ccffd7; color: #066b10; }
+
 
 
 
