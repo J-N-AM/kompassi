@@ -1,3 +1,17 @@
+const oikeaSalasana = "ainipolku2025";
+
+function tarkistaSalasana() {
+  const input = document.getElementById("salasanaInput").value;
+  const virhe = document.getElementById("salasanaVirhe");
+
+  if (input === oikeaSalasana) {
+    virhe.style.display = "none";
+    document.getElementById("salasanaSivu").style.display = "none";
+    naytaSivu('sivu1');
+  } else {
+    virhe.style.display = "block";
+  }
+}
 function naytaSivu(id) {
   const sivut = document.querySelectorAll('.sivu');
 
@@ -254,4 +268,5 @@ function naytaYhteenveto() {
     </div>`;
 
   naytaSivu('sivu3');
+
 }
