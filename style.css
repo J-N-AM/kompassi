@@ -25,7 +25,7 @@
   box-sizing: border-box;
 }
 .container > * {
-  padding: 0 10px;
+  padding: 0 0px;
 }
 
 /* Pienemmillä näytöillä (puhelin) käytetään koko leveyttä 
@@ -162,6 +162,7 @@
   .low { background: #ffcccc; color: #b00020; }
   .mid { background: #fff4cc; color: #a35a00; }
   .high { background: #ccffd7; color: #066b10; }
+
 
 
 
