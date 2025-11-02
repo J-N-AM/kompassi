@@ -13,8 +13,12 @@
     display: flex;
     justify-content: center;
   }
-
-  h1, h2 {
+  h1 {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    }
+  h2 {
     text-align: center;
     font-size: 15px;
     font-family: 'Montserrat', sans-serif;
@@ -174,4 +178,5 @@
   .low { background: #ffcccc; color: #b00020; }
   .mid { background: #fff4cc; color: #a35a00; }
   .high { background: #ccffd7; color: #066b10; }
+
 
