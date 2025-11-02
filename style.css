@@ -120,18 +120,18 @@
   grid-template-columns: 1fr auto 1fr; /* vasen - kuva - oikea */
   align-items: center;                  /* keskittää pystysuunnassa */
   column-gap: 10px;                     /* väli kuvasta ja teksteistä */
- padding: 0 10%;
+ padding: 0 5%;
 }
 .vasen {
   font-family: "Montserrat", sans-serif;
-  font-size: clamp(12px, 2.4vw, 17px);
+  font-size: clamp(8px, 2.1vw, 14px);
   line-height: 1.4em;
   justify-self: start;
   text-align: justify;
 }
 .oikea {
   font-family: "Montserrat", sans-serif;
-  font-size: clamp(8px, 2.4vw, 17px);
+  font-size: clamp(8px, 2.1vw, 14px);
   line-height: 1.4em;
   justify-self: end;
   text-align: justify;
@@ -179,6 +179,7 @@
   .low { background: #ffcccc; color: #b00020; }
   .mid { background: #fff4cc; color: #a35a00; }
   .high { background: #ccffd7; color: #066b10; }
+
 
 
 
