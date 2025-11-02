@@ -119,8 +119,8 @@
   display: grid;
   grid-template-columns: 1fr auto 1fr; /* vasen - kuva - oikea */
   align-items: center;                  /* keskittää pystysuunnassa */
-  column-gap: 10px;                     /* väli kuvasta ja teksteistä */
- padding: 0 40px;
+  column-gap: 10%;                     /* väli kuvasta ja teksteistä */
+ padding: 0 10%;
 }
 .vasen {
   font-family: "Montserrat", sans-serif;
@@ -178,5 +178,6 @@
   .low { background: #ffcccc; color: #b00020; }
   .mid { background: #fff4cc; color: #a35a00; }
   .high { background: #ccffd7; color: #066b10; }
+
 
 
