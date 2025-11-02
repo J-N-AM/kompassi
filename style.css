@@ -123,20 +123,19 @@
  padding: 0 10%;
 }
 .vasen {
-  font-size: clamp(14px, 2.4vw, 17px);
-  line-height: 1.4em;
-  margin: 10px 0;
   font-family: "Montserrat", sans-serif;
+  font-size: clamp(12px, 2.4vw, 17px);
+  line-height: 1.4em;
   justify-self: start;
   text-align: justify;
 }
 .oikea {
   font-family: "Montserrat", sans-serif;
-  font-size: 8px;
+  font-size: clamp(8px, 2.4vw, 17px);
+  line-height: 1.4em;
   justify-self: end;
   text-align: justify;
 }
-
 .keskikuva {
   width: 50px;  /* haluttu kuvan koko */
   height: auto;
@@ -180,6 +179,7 @@
   .low { background: #ffcccc; color: #b00020; }
   .mid { background: #fff4cc; color: #a35a00; }
   .high { background: #ccffd7; color: #066b10; }
+
 
 
 
